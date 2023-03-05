@@ -990,3 +990,9 @@ need to leave an empty space */
 .footer_social{
     color: #FFF;
 }
+
+/* background header will run this property when scroll */
+.scroll-header{
+    /* horizontal offset 0, vertical offset -1px 4px blurry and rgba 0,0,0,0.15 color of offset*/
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+}
